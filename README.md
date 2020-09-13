@@ -29,3 +29,7 @@ of these figures:
   - Other countries' data are not strictly monthly so the rest are not processed (yet!)
 - The source files of data which were preprocessed are in `preproc/data/` along with some
   other data files which were not used in the end
+
+Finished result:
+
+![](plotting/fig/sweden_scaled_mortality_figure.png)
