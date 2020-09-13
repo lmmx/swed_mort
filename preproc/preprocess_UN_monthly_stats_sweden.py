@@ -23,5 +23,5 @@ def main():
     with open(data_dir / swed_out_tsv, "w") as f:
         f.write(main_tsv)
 
-    with open(swed_footnotes_tsv, "w") as f:
+    with open(data_dir / swed_footnotes_tsv, "w") as f:
         f.write(footnote_tsv)

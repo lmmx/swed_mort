@@ -23,5 +23,5 @@ def main():
     with open(data_dir / all_countries_out_tsv, "w") as f:
         f.write(main_tsv)
 
-    with open(all_countries_footnotes_tsv, "w") as f:
+    with open(data_dir / all_countries_footnotes_tsv, "w") as f:
         f.write(footnote_tsv)

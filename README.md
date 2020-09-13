@@ -17,12 +17,15 @@ This could be supplemented with the 2020 figures to reproduce the plot.
   - Since this is the most recent time point, and the only available time point for
     the month of August, it must be omitted when comparing months to previous years
 
-The 3 year rolling average is not difficult to calculate
-
-Actually, on this data alone I cannot reproduce the chart as the data are annual...
+However, on this data alone I cannot reproduce the chart as the data are annual!
 
 Searching the web for _"sweden monthly deaths 1980"_
 led me to the UNData site which goes back to 1980 and is presumably the true source
-of these figures: see this page at [data.un.org/](http://data.un.org/Data.aspx?d=POP&f=tableCode%3A65)
+of these figures:
+- ["Deaths by month of death"](http://data.un.org/Data.aspx?d=POP&f=tableCode%3A65)
+- ["Population by age..."](http://data.un.org/Data.aspx?d=POP&f=tableCode%3a22)
 
-
+- These are preprocessed in `preproc/` by `preprocess_UN_monthly_stats_sweden.py`
+  - Other countries' data are not strictly monthly so the rest are not processed (yet!)
+- The source files of data which were preprocessed are in `preproc/data/` along with some
+  other data files which were not used in the end

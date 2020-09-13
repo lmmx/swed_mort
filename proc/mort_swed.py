@@ -30,4 +30,3 @@ mort_all = remove_non_months(mort_all)
 # Dates not processed as they contain ranges of months!
 
 fn_all = pd_tsv(data_dir / f"{all_countries_out_prefix}_footnotes.tsv")
-
