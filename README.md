@@ -1,8 +1,8 @@
-# Swedish COVID-19 statistics
+# Swedish mortality statistics
 
 Attempting to reproduce [this](https://twitter.com/mmay3r/status/1304837380193488896)
 plot of Sweden's "deaths per Month / per Million population" from 1980 to 2020,
-I followed the link given on the chart to [statistikdatabasen.scb.se](https://www.statistikdatabasen.scb.se/pxweb/en/ssd/)
+I followed the link given on the chart to [[the Swedish stats authority](https://en.wikipedia.org/wiki/Statistics_Sweden)] [statistikdatabasen.scb.se](https://www.statistikdatabasen.scb.se/pxweb/en/ssd/)
 but could only obtain
 
 > Mortality rate per 1,000 of the mean population by age and sex. Year 2000 - 2019
